@@ -1,7 +1,14 @@
+import React from 'react';
+import Day from './component/Day';
+import DayList from './component/DayList';
+import Header from './component/Header';
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <Header />
+      <DayList />
+      <Day />
     </div>
   );
 }
